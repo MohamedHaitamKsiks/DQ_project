@@ -1,0 +1,7 @@
+[save]
+gold = 0
+max_health = 3
+magic = 0
+max_magic = 99
+name = "Name"
+stage = 0
