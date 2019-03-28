@@ -3,8 +3,6 @@
 
 echo Commit your project
 
-cd C:\Users\Haitam\Desktop\SimpleTeam\DQ_gitproject
-
 git init
 git status
 git add .
