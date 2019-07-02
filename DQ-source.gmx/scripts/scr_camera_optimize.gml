@@ -1,0 +1,15 @@
+if(!pause){
+instance_deactivate_object(obj_spike_parent);
+instance_deactivate_object(obj_ladder_parent);
+instance_deactivate_object(obj_item_parent);
+instance_deactivate_object(obj_bomb_parent);
+instance_deactivate_object(obj_solid);
+instance_deactivate_object(obj_platform);
+instance_deactivate_object(obj_water);
+instance_deactivate_object(obj_lava);
+instance_deactivate_object(obj_tile_water);
+instance_deactivate_object(obj_tile_parent);
+instance_deactivate_object(obj_platform_inv);
+instance_deactivate_object(obj_enemy_spawner);
+instance_activate_region(view_xview[0]-64,view_yview[0]-64,view_wview[0]+64*2,view_hview[0]+64*2,true);
+}
